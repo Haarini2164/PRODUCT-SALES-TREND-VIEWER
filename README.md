@@ -49,6 +49,40 @@ This application transforms raw sales data into **actionable business insights**
 - 📥 Download Filtered Data as CSV  
 
 ---
+## 📸 Project Output
+
+### 🖥️ Dashboard Overview
+<p align="center">
+  <img src="1.png" width="900"/>
+</p>
+
+---
+
+### 📈 Sales Trend & Forecast
+<p align="center">
+  <img src="2.png" width="900"/>
+</p>
+
+---
+
+### 🏆 Top Products
+<p align="center">
+  <img src="3.png" width="900"/>
+</p>
+
+---
+
+### 🌍 Region-wise Sales
+<p align="center">
+  <img src="4.png" width="900"/>
+</p>
+
+---
+
+### 📋 Filtered Data Table
+<p align="center">
+  <img src="5.png" width="900"/>
+</p>
 
 ## 🛠️ Tech Stack
 
