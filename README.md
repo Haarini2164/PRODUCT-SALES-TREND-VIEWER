@@ -1,10 +1,11 @@
 # 📊 PRODUCT SALES TREND VIEWER
 
-## 📌 Project Overview
-This project is an interactive **Sales Analytics Dashboard** built using **Streamlit**.  
-It enables users to upload sales datasets, analyze trends, and forecast future sales using machine learning.
+---
 
-The application helps convert raw sales data into **meaningful business insights** for better decision-making.
+## 📌 Project Overview
+An interactive **Sales Analytics Dashboard** built using **Streamlit** to analyze product sales, visualize trends, and forecast future performance using machine learning.
+
+This application transforms raw sales data into **actionable business insights** for better decision-making.
 
 ---
 
@@ -12,7 +13,7 @@ The application helps convert raw sales data into **meaningful business insights
 - Analyze product-wise sales performance  
 - Identify monthly and seasonal sales trends  
 - Forecast future sales using predictive models  
-- Support business decisions with data insights  
+- Support business decisions using data insights  
 
 ---
 
@@ -24,60 +25,38 @@ The application helps convert raw sales data into **meaningful business insights
   - Date  
   - Product  
   - Sales  
-  - Region (optional)  
+  - Region  
   - Customer Type  
   - Quantity Sold  
 
-### 🔹 Uploaded Dataset
+### 🔹 Retail Dataset
 - File: `retail_sales_dataset.csv`
 - Contains:
   - Product Category  
   - Quantity  
   - Unit Price  
   - Total Amount  
-  - Customer Demographics  
 
 ---
 
 ## ⚙️ Features
 
-### 📊 KPI Dashboard
-- Total Sales  
-- Average Monthly Sales  
-- Best Sales Month  
-
-### 📈 Trend Analysis
-- Monthly sales trend visualization  
-- Detect seasonal patterns  
-
-### 🔮 Forecasting
-- 6-month sales prediction using **Prophet**  
-
-### 🏆 Top Products
-- Top 5 products based on total sales  
-
-### 🌍 Region Analysis
-- Region-wise sales distribution (Pie Chart)  
-
-### 📥 Data Export
-- Download filtered dataset as CSV  
-
----
-
-## 🧹 Data Processing
-- Automatic column mapping  
-- Handles different column naming formats  
-- Converts date columns to datetime  
-- Removes invalid and missing values  
+- 📊 KPI Dashboard (Total Sales, Avg Monthly Sales, Best Month)  
+- 📈 Monthly Sales Trend Visualization  
+- 🔮 6-Month Forecast using Prophet  
+- 🏆 Top 5 Products Analysis  
+- 🌍 Region-wise Sales Distribution  
+- 📥 Download Filtered Data as CSV  
 
 ---
 
 ## 🛠️ Tech Stack
+
 - Python 🐍  
 - Streamlit  
 - Pandas  
 - Plotly  
-- Prophet (Machine Learning)  
+- Prophet  
 
 ---
 
