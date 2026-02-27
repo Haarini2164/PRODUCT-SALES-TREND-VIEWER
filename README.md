@@ -1,101 +1,61 @@
-# 📊 PRODUCT SALES TREND VIEWER
+# 📊 Product Sales Trend Viewer
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![Data Analysis](https://img.shields.io/badge/Data-Analytics-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+An interactive **Sales Analytics Dashboard** built using **Streamlit** that allows users to upload CSV files and visualize sales trends, forecasts, and key business insights.
 
 ---
 
-## 📌 Project Overview
-An interactive **Sales Analytics Dashboard** built using **Streamlit** to analyze product sales, visualize trends, and forecast future performance using machine learning.
+## 📑 Table of Contents
 
-This application transforms raw sales data into **actionable business insights** for better decision-making.
-
----
-
-## 🎯 Objectives
-- Analyze product-wise sales performance  
-- Identify monthly and seasonal sales trends  
-- Forecast future sales using predictive models  
-- Support business decisions using data insights  
+- Overview
+- Features
+- Technology Stack
+- Installation
+- Usage
+- Project Structure
+- Screenshots
 
 ---
 
-## 📂 Dataset Description
+## 🎯 Overview
 
-### 🔹 Default Dataset
-- File: `sales_data.csv`
-- Contains:
-  - Date  
-  - Product  
-  - Sales  
-  - Region  
-  - Customer Type  
-  - Quantity Sold  
+This project helps users analyze sales data easily by simply uploading a CSV file.  
 
-### 🔹 Retail Dataset
-- File: `retail_sales_dataset.csv`
-- Contains:
-  - Product Category  
-  - Quantity  
-  - Unit Price  
-  - Total Amount  
+It automatically:
+- Cleans and processes data  
+- Generates KPIs  
+- Visualizes trends  
+- Forecasts future sales  
 
 ---
 
-## ⚙️ Features
+## 🚀 Features
 
-- 📊 KPI Dashboard (Total Sales, Avg Monthly Sales, Best Month)  
-- 📈 Monthly Sales Trend Visualization  
-- 🔮 6-Month Forecast using Prophet  
-- 🏆 Top 5 Products Analysis  
-- 🌍 Region-wise Sales Distribution  
-- 📥 Download Filtered Data as CSV  
-
----
-## 📸 Project Output
-
-### 🖥️ Dashboard Overview
-<p align="center">
-  <img src="1.png" width="900"/>
-</p>
+- 📂 Upload any CSV dataset  
+- 📊 Automatic KPI calculation  
+- 📈 Monthly Sales Trend visualization  
+- 🔮 6-Month Sales Forecast (Prophet)  
+- 🏆 Top 5 Products analysis  
+- 🌍 Region-wise distribution  
+- 📋 Filtered data table  
 
 ---
 
-### 📈 Sales Trend & Forecast
-<p align="center">
-  <img src="2.png" width="900"/>
-</p>
+## 🛠️ Technology Stack
 
----
-
-### 🏆 Top Products
-<p align="center">
-  <img src="3.png" width="900"/>
-</p>
-
----
-
-### 🌍 Region-wise Sales
-<p align="center">
-  <img src="4.png" width="900"/>
-</p>
-
----
-
-### 📋 Filtered Data Table
-<p align="center">
-  <img src="5.png" width="900"/>
-</p>
-
-## 🛠️ Tech Stack
-
-- Python 🐍  
+- Python  
 - Streamlit  
 - Pandas  
-- Plotly  
+- Matplotlib  
 - Prophet  
 
 ---
 
-## ▶️ How to Run
+## ⚙️ Installation
 
 ```bash
 pip install -r requirements.txt
-streamlit run sales_app.py
